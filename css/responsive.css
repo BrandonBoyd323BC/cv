@@ -1,0 +1,199 @@
+/*------------------------------------------------------------------
+[RESPONSIVE CSS]
+-------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+/* demo9 */
+.demo9-bg .video {width: 730px;}
+#wrapper {
+  margin-left: -470px;
+  width: 935px;
+}
+.rightpan {width: 730px;}
+/* demo10 */
+.gallery {
+  height: 60%;
+  width: 70%;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+/* demo1 */
+#nav a {
+  font-size: 13px;
+  margin: 15px 7px;
+}
+/* demo2 */
+.demo2-bg .video {height: 100%;}
+.demo2-bg .video.section_padding::after {top: -4px;}
+.demo2-bg #bgvid {
+  width: 100%;
+}
+/* demo3 */
+/* demo4 */
+/* demo5 */
+.demo5-bg #bgvid {width: 100%;}
+.demo5-bg  .video {height: 100%;}
+.demo5-bg .video.section_padding::after {top: -4px;}
+/* demo6 */
+/* demo7 */
+.modal {margin-left: -400px;}
+.modal-content video {
+  width: 800px;
+}
+/* demo8 */
+/* demo9 */
+#wrapper {
+  margin-left: -375px;
+  width: 750px;
+}
+.rightpan,.demo9-bg .video  {width: 545px;}
+/* demo10 */
+.gallery {
+  height: 50%;
+  width: 90%;
+}
+.cell video {margin-top: -130px;}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+/* indexhtml */
+.indexhtml header h1 {
+  line-height: 35px;
+  font-size: 25px;
+}
+.indexhtml .view_text {margin-top: -50px;}
+.indexhtml .view_text p {margin-top: 5px;}
+.indexhtml .view_text a {
+  margin-top: 10px;
+  padding: 5px 15px;
+}
+.indexhtml .alldemo .col-md-4 {margin-bottom: 30px;}
+/* demo1 */
+.header_top {
+  padding-top: 20px;
+  text-align: center;
+}
+.text-right {text-align: center;}
+.logo {margin:  0 auto;}
+.mobile-menu-area{display:block;}
+.mainmenu{display:none;}
+.mean-container .mean-bar {background: rgb(31, 50, 62) none repeat scroll 0 0;}
+
+/* demo2 */
+.demo2-bg .video.section_padding::after {top: -4px;}
+.demo2-bg .video {height: 100%;}
+.demo2-bg #bgvid {width: 100%;}
+.amazing_title h1 {font-size: 20px;}
+/* demo3 */
+.demo3 h1 {
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+/* demo4 */
+.demo4.video-area {
+  width: 100%;
+  padding: 0 20px;
+}
+.progres {width: 30vh;}
+/* demo5 */
+.demo5-bg #bgvid {width: 100%;}
+.demo5-bg .video {height: 100%;}
+.demo5-bg .video.section_padding::after {top: -4px;}
+
+/* demo6 */
+.demo6 .desktop-bg {width: 300px;}
+.demo6 .videoContainer {
+  height: 165px;
+  left: 21%;
+  margin-left: 0;
+  margin-top: 0;
+  top: 34%;
+  width: 58.5%;
+}
+.demo6 .caption {padding: 5px;}
+.demo6 .progres {width: 25vh;}
+/* demo7 */
+.modal {
+  margin-left: -160px;
+  top: 50px;
+}
+.modal-dialog {width: inherit;}
+.modal-content video {width: 300px;}
+/* demo8 */
+/* demo9 */
+#wrapper {
+  margin-left: -150px;
+  width: 300px;
+}
+.leftpan {
+  padding: 20px;
+  width: 100%;
+  position:unset;
+}
+.rightpan {
+  margin-left: 0;
+  padding: 20px;
+  width: 100%;
+}
+.demo9-bg .video {width: 260px;}
+/* demo10 */
+.gallery {
+  height: 30%;
+  width: 90%;
+}
+.cell video {
+  margin-top: -42px;
+  padding: 0 10px;
+}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container{width:450px;}
+/* demo1 */
+/* demo2 */
+/* demo3 */
+/* demo4 */
+.demo4 .videoContainer {
+  margin: auto;
+  width: 83%;
+}
+.progres {width: 60vh;}
+/* demo5 */
+/* demo6 */
+.demo6 .desktop-bg {width: 400px;}
+.demo6 video#myVideo {width: 100%;}
+.demo6 .videoContainer {
+  height: 210px;
+  left: 26%;
+  margin-left: 0;
+  margin-top: 0;
+  top: 30%;
+  width: 47.5%;
+}
+/* demo7 */
+.modal {margin-left: -225px;}
+.modal-content video {width: 450px;}
+/* demo8 */
+/* demo9 */
+#wrapper {
+  margin-left: -225px;
+  width: 450px;
+}
+.demo9-bg .video {width: 410px;}
+/* demo10 */
+.gallery {height: 50%;}
+.cell video {margin-top: -100px;}
+ 
+}

@@ -2,6 +2,7 @@
 const https = require("https")
 const express = require("express")
 const bodyParser = require("body-parser")
+const dotenv = require("dotenv")
  
 const app = express()
 
@@ -14,7 +15,7 @@ app.get("/", function(req, res) {
 app.post("/", function(req, res) {
 
     const query = req.body.cityName
-    const apiKey = "6a50c354bbf351b6fc1c43814ad9e16b"
+    const apiKey = WEATHER_API_KEY //hide with .env file
     const units = "imperial"
     const url = "https://api.openweathermap.org/data/2.5/weather?q="+query+"&appid="+apiKey+"&units="+units
     console.log(url)
@@ -31,7 +32,7 @@ app.post("/", function(req, res) {
                 
                 res.write("<p>The description of weather in "+ query +" is " + weatherDescription + ".")
                 res.write("<h1>The temprature is " + temp + " degrees fahrenheit.</h1>")            
-                res.write("<div><img src="+imgURL+">Test</div>")
+                res.write("<div><img src="+imgURL+"></div>")
                 
                 res.send()
 

@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
-    <h1>Contact Me</h1>
-    <h2>Dr. Brandon Boyd</h2>
-    <a><em>Hope Springs Eternal AMA Babtist Methodist Hospital spc. md. obgyn.</em></a>
-    <h2>Phone</h2>
-        <p>Klondike-5240</p>
-    <h2>By Postmaster</h2>
-        <p>Manila Central Post Office, Liwasang Bonifacio, Manila, 1000 Metro Manila, Philippines</p>
-    <h2>By Pigeon</h2>
-    <a href="https://en.wikipedia.org/wiki/Pigeon_post"><img src="img/pigeon" width="280" height="221" alt="A Bird"></a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Contact Page</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" href="/css/contact.css" /><link rel="stylesheet" type="text/css" href="css/contact.css" />
+		<link rel="stylesheet" type="text/css" href="css/contact-style.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/InlineAnchorStyles/"><span>Previous Demo</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19242"><span>Back to the Codrops Article</span></a></span>
+			</div>
+			<div id="boxgallery" class="boxgallery" data-effect="effect-1">
+				<div class="panel"><img src="/img/index/phones.jfif" alt="Image 1" /></div>
+				<div class="panel"><img src="/img/index/shop-vert.jfif" alt="Image 2" /></div>
+				<div class="panel"><img src="/img/index/chicago-bldg.jfif" alt="Image 3" /></div>
+				<div class="panel"><img src="/img/index/grid-shops.jfif" alt="Image 4" /></div>
+			</div>
+			<header class="codrops-header">
+				<h1>Four Boxes Slideshow <span>Recreating the background image slideshow seen on <a href="http://www.atelier-serge-thoraval.com/en/">Atelier Serge Thoroval's website</a></span></h1>
+				<nav class="codrops-demos">
+					<a class="current-demo" href="index.html">Serge Thoroval</a>
+					<a href="index2.html">Lateral</a>
+					<a href="index3.html">Fall</a>
+				</nav>
+			</header>
+		</div><!-- /container -->
 
-    <p><a href="index.html">Home</a></p>
-</body>
+		<script src="js/contact.js"></script>
+		<script src="js/Fx.js"></script>
+		<script>
+			new BoxesFx( document.getElementById( 'boxgallery' ) );
+		</script>
+	</body>
 </html>

@@ -1,7 +1,7 @@
 {
-  "name": "weatherproject",
+  "name": "main-cv",
   "version": "1.0.0",
-  "description": "This is a weather app using Node and Postman for Open Weather App",
+  "description": "Resume Site",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,16 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonBoyd323BC/cv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrandonBoyd323BC/cv/issues"
+  },
+  "homepage": "https://github.com/BrandonBoyd323BC/cv#readme"
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon Boyd Site</title>
+    
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Satisfy&family=Yusei+Magic&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/robot.css">
+</head>
+<div class="top-container">
+    <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+        <a class="p-2 link-secondary" href="index.html">Home</a>
+          <a class="p-2 link-secondary" href="vid-player.html">Video Player</a>
+          <a class="p-2 link-secondary" href="loveCalculator.html">Love Calculator</a>
+          <a class="p-2 link-secondary" href="dice-roller.html">Dice Roller</a>
+          <a class="p-2 link-secondary" href="https://pacific-bastion-67003.herokuapp.com/">To Do List Heroku</a>
+          <a class="p-2 link-secondary" href="calculator.html">Calculator</a>
+          <a class="p-2 link-secondary" href="contact.html">Contact</a>
+        </nav>
+      </div>
+</div>
+<div class="middle-container">
+    <h2>My Robot Slave: Genesis</h2>
+    <h3><em>Out of Robotica</em></h3>
+    <img src="img//robot/robot.jfif" class="robot" alt="smilingRobot">
+    <p class="skill-row">
+        It begins as a realization that the purpose in life is to get the milk.
+        the robot is limited by the amount of money that the robot's master has to give.
+        As a drunkard of sorts there often wasn't much. The robot wondered how much money the master 
+        would have to donate to the task but no matter. A robot was not made to wonder. Musing is for those
+        made of flesh. The master gave the robot <input type="text" id="milkMoney" value="" placeholder="$0.00">
+        (Enter an amount a drunken slaver would provide).
+    </p>
+        Force the robot to do the labor his grim fate has destined him to carry out.
+        <div>
+            <button class="btn" onclick="myFunction(document.getElementById('milkMoney').value)">Force Labor</button>
+        </div>
+    </p>
+    <div>
+        <h2>
+            Results of the trip: <span id="bottles"></span>
+        </h2>
+    </div>
+
+</div>
+<div class="bottom-container">
+    <a href="index.html">Home</a>
+</div>
+
+<script src="js/robotStuff.js"></script>
+</body>
+
+</html>
