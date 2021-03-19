@@ -13,41 +13,42 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/contact-text.css" />
 		<link rel="stylesheet" type="text/css" href="css/contact-gallery.css" />
-		<script src="../js/modernizr.custom.js"></script>
+		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
 		<div class="container">
+			<!-- contact text css -->
+			<div class="nav clearfix" id="nav">
+				<a class="p-2 link-secondary" href="/index.html">Resume</a>
+				<a class="p-2 link-secondary" href="../portfolio/index.html">Portfolio</a>
+				<a class="p-2 link-secondary" href="../loveCalculator.html">Love Calculator</a>
+				<a class="p-2 link-secondary" href="../dice-roller.html">Dice Roller</a>
+				<a class="p-2 link-secondary" href="../https://pacific-bastion-67003.herokuapp.com/">To Do List Heroku</a>
+				<a class="p-2 link-secondary" href="../calculator.html">Calculator</a>				
+			</div>
+			<!-- contact text -->
+			<div id="boxgallery" class="boxgallery" data-effect="">
+				<div class="panel"><img src="img/1.jpg" alt="Image 1" /></div>
+				<div class="panel"><img src="img/2.jpg" alt="Image 2" /></div>
+				<div class="panel"><img src="img/3.jpg" alt="Image 3" /></div>
+				<div class="panel"><img src="img/4.jpg" alt="Image 4" /></div>
+			</div>
 
-				<!-- contact text css -->
-				<div class="codrops-top clearfix">
-					<a class="codrops-icon codrops-icon-prev" href="/index.html"><span>Home Page</span></a>
-				</div>
-				<!-- contact text -->
-
-				<div id="boxgallery" class="boxgallery" data-effect="">
-					<div class="panel"><img src="../img/1.jpg" alt="Image 1" /></div>
-					<div class="panel"><img src="../img/2.jpg" alt="Image 2" /></div>
-					<div class="panel"><img src="../img/3.jpg" alt="Image 3" /></div>
-					<div class="panel"><img src="../img/4.jpg" alt="Image 4" /></div>
-				</div>
-
-				<!-- contact text css -->
-				<header class="contact-header">
-					<h1>
-						Contact Me
-						<span
-							><p>Phone: 773.977.3832</p>
-							<a href="mailto:BrandonBoyd323BC@gmail.com">email: BrandonBoyd323BC@gmail.com</a>
-						</span>
-					</h1>
-				</header>
-				<!-- contact text -->
+			<!-- contact text css -->
+			<header class="contact-header">
+				<h1>
+					Contact Me
+					<span
+						><p>Phone: 773.977.3832</p>
+						<a href="mailto:BrandonBoyd323BC@gmail.com">email: BrandonBoyd323BC@gmail.com</a>
+					</span>
+				</h1>
+			</header>
+			<!-- contact text -->
 		</div>
 		<!-- /container -->
-		<script src="../js/classie.js"></script>
-		<script src="../js/boxesFx.js"></script>
-		<script>
-			new BoxesFx(document.getElementById("boxgallery"))
-		</script>
+		<script src="js/classie.js"></script>
+		<script src="js/boxesFx.js"></script>
+		<script>new BoxesFx(document.getElementById("boxgallery"));</script>
 	</body>
 </html>
