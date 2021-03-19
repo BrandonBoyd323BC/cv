@@ -58,30 +58,55 @@ section {
 	opacity: 0.7;
 }
 
-/* To Navigation Style */
-.codrops-top {
-	width: 100%;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 0.69em;
-	line-height: 2.2;
+/* ________Nav_Bar_____________________________________________________________________________________________________________________________________________ */
+
+.nav {
+	background-color: #34626c;
+	display: block;
+	overflow: hidden;
 	position: relative;
 	z-index: 2000;
 }
-
-.codrops-top a {
-	display: inline-block;
-	padding: 0.3em 0.7em;
-	text-decoration: none;
-	letter-spacing: 1px;
-	margin: 5px;
-}
-
-.codrops-top span.right {
-	float: right;
-}
-
-.codrops-top span.right a {
+.nav a {
+	color: #cfd3ce;
 	display: block;
+	float: right;
+	font-size: 17px;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+.nav a:hover {
+	background-color: #cfd3ce;
+	color: #34626c;
+}
+.nav a.active {
+	background-color: #c6b497;
+	color: #34626c;
 	float: left;
+}
+.nav .icon {
+	display: none;
+}
+@media screen and (max-width: 1000px) {
+	.nav {
+		margin: 0
+	}
+	.nav a:not(:first-child) {
+		display: none;
+	}
+	.nav a.icon {
+		float: right;
+		display: block;
+	}
+}
+@media screen and (max-width: 1000px) {
+	nav.responsive {
+		position: absolute;
+	}
+	.nav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
 }

@@ -266,5 +266,13 @@
 
 	// add to global namespace
 	window.BoxesFx = BoxesFx;
-
+	
+	function myFunction() {
+		var x = document.getElementById("nav");
+		if (x.className === "nav") {
+		  x.className += " responsive";
+		} else {
+		  x.className = "nav";
+		}
+	   }
 })(window);
