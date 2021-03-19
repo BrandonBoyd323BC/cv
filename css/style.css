@@ -31,3 +31,52 @@ body {
 .cert {
 	width: 250px; 
 }
+
+/* ________Nav_Bar_____________________________________________________________________________________________________________________________________________ */
+
+.nav {
+
+	display: block;
+	overflow: hidden;
+}
+.nav a {
+	color: #a1a1a1;
+	display: inline-block;
+	margin-right: 8.7%;
+	text-align: center;
+	text-decoration: none;
+}
+.nav a:hover {
+	background-color: #cfd3ce;
+	color: #000000;
+}
+.nav a.active {
+	background-color: #c6b497;
+	color: #949494;
+	float: left;
+}
+.nav .icon {
+	display: none;
+}
+@media screen and (max-width: 1000px) {
+	.nav {
+		margin: 0
+	}
+	.nav a:not(:first-child) {
+		display: none;
+	}
+	.nav a.icon {
+		float: right;
+		display: block;
+	}
+}
+@media screen and (max-width: 1000px) {
+	nav.responsive {
+		position: absolute;
+	}
+	.nav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
