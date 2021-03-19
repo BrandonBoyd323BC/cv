@@ -34,9 +34,16 @@ var backgroundResize = function() {
   windowResize(window, "resize", backgroundResize);
   var readjust = 0;
 
-// Change setting here if you desire
-
   setInterval(function () {
     readjust += movement;
     document.getElementById("bg").style.backgroundPosition = readjust + "px 0px"
   }, duration);
+
+  function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
