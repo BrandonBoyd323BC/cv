@@ -23,7 +23,7 @@ hr {
 /* ________Jumbotron_____________________________________________________________________________________________________________________________________________ */
 .jumbotron-fluid {
 	font-family: "Passion One", cursive;
-	background-image: url(../portfolio/img/image-1.jpg);
+	background-image: url(https://github.com/BrandonBoyd323BC/cv/portfolio/img/image-1.jpg);
 	color: #fff;
 	min-height: 100%;
 	overflow-y: hidden;
@@ -143,7 +143,7 @@ hr {
 
 .parallax-1 {
 	padding: 0;
-	background-image: url(../portfolio/img/image-3.jpg);
+	background-image: url(https://github.com/BrandonBoyd323BC/cv/portfolio/img/image-3.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -210,7 +210,7 @@ col > h3 {
 /* ________Second_Parallax_____________________________________________________________________________________________________________________________________________ */
 
 .parallax {
-	background-image: url(../portfolio/img/image-1.jpg);
+	background-image: url(https://github.com/BrandonBoyd323BC/cv/portfolio/img/image-1.jpg);
 	height: 45%;
 	background-attachment: fixed;
 	background-position: center;
@@ -268,7 +268,7 @@ col > h3 {
 /* ________Third_Parallax_____________________________________________________________________________________________________________________________________________ */
 
 .parallax-0 {
-	background-image: url(../portfolio/img/image-2.jpg);
+	background-image: url(https://github.com/BrandonBoyd323BC/cv/portfolio/img/image-2.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
